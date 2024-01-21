@@ -6,7 +6,6 @@ let spanX = document.querySelector('.spanX');
 let spanX2 = document.querySelector('.spanX2')
 
 burger.addEventListener('click', function() {
-  // wraper.classList.toggle('wraper2');
   document.body.classList.toggle('newBody');
   burgerNav.classList.toggle('toggle');
   spanX.classList.toggle('spanX2');
