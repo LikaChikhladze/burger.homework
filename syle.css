@@ -66,3 +66,131 @@ body {
   transform: rotate(-45deg);
   position: absolute;
 }
+.form {
+  border-style: dotted;
+  border-color: rgb(104, 9, 9);
+  border-width: 2px;
+  padding: 10px;
+}
+
+
+/* example 2 */
+
+.fav-food {
+  width: 300px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  display: none;
+
+}
+.fav-food p {
+  margin-bottom: 30px;
+  color: rgb(230, 220, 220);
+  text-shadow: 3px 4px 11px white;
+}
+#food {
+  width: 75%;
+  margin-right: 10px;
+}
+.food-Ul {
+  margin-top: 20px;
+  /* display: flex; */
+}
+.Ul-li {
+  margin-right: 30px;
+}
+.delete {
+  margin-left: 10px;
+}
+
+.spanDiv {
+ width: 20px;
+ height: 20px;
+ /* background-color: aliceblue; */
+ position: relative;
+ margin-left: 15px;
+ 
+ border-radius: 10px;
+}
+
+.Dltspan {
+  /* margin-left: 10px; */
+  margin-top: 5px;
+  width: 20px;
+  height: 4px;
+  background-color: black;
+  position: absolute; 
+  rotate: 45deg;
+  box-shadow: 2px 3px 12px red;
+}
+.Dltspan2 {
+  /* margin-left: 10px; */
+  margin-top: 5px;
+  width: 20px;
+  height: 4px;
+  background-color: black;
+  position: absolute; 
+  rotate: -45deg;
+  box-shadow: 2px 3px 12px red;
+}
+.newLi {
+  display: flex;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgb(151, 11, 11);
+}
+.clear {
+  border-radius: 20px;
+  box-shadow: 2px 3px 9px red;
+  text-shadow: 2px 3px 9px rgb(236, 145, 145);
+}
+.click {
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px rgb(151, 11, 11);
+}
+.fav-food2 {
+  display: block;
+}
+
+
+
+
+
+/* practice X */
+
+.practice {
+  width: 670px;
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 450px;
+  margin-left: 100px;
+}
+.practiceDiv {
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  position: relative;
+}
+.practiceSpan {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%,-50%); */
+  rotate: 45deg;
+}
+.practiceSpan2 {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%,-50%); */
+  rotate: -45deg;
+}
